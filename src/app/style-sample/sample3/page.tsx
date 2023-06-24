@@ -1,6 +1,6 @@
 'use client';
 
-import { Sample3 } from '@/components/Sample3';
+import { Sample3 } from './_components/Sample3';
 
 export default function Sample3Page() {
   return (

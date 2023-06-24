@@ -1,6 +1,6 @@
 'use client';
 
-import { Sample4 } from '@/components/Sample4';
+import { Sample4 } from './_components/Sample4';
 
 export default function Sample4Page() {
   return (

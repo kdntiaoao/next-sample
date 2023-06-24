@@ -1,6 +1,6 @@
-import * as S from './Styled';
+import * as S from './SSample3';
 
-export const Sample4 = () => {
+export const Sample3 = () => {
   return (
     <div>
       <S.Wrapper>
