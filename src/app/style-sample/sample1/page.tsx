@@ -1,24 +1,40 @@
+/** @jsxRuntime classic */
+/** @jsx jsx */
 'use client'
 
+import { jsx, css } from '@emotion/react'
 import styled from '@emotion/styled'
+import { SBaseTitle } from '../_components/styled'
 
-const Wrapper = styled.section`
-  padding: 4em;
-  background: papayawhip;
-`
-
-const Title = styled.h1({
-  fontSize: '1.5em',
-  textAlign: 'center',
-  color: '#bf4f74',
+const SWrapper = styled.section({
+  padding: '4em',
+  background: '#ffe3e5',
 })
 
-export default function Sample1Page() {
+const STitle = styled(SBaseTitle)({
+  color: '#383d3d',
+})
+
+const wrapperStyles = css({
+  padding: '4em',
+  background: '#eddfe0',
+})
+
+const titleStyles = css({
+  fontSize: '1.5em',
+  textAlign: 'center',
+  color: '#705c53',
+})
+
+export default function Sample2Page() {
   return (
     <div>
-      <Wrapper>
-        <Title>Hello World!</Title>
-      </Wrapper>
+      <SWrapper>
+        <STitle>Hello World!</STitle>
+      </SWrapper>
+      <div css={css(wrapperStyles)}>
+        <h1 css={titleStyles}>Hello World!</h1>
+      </div>
     </div>
   )
 }
