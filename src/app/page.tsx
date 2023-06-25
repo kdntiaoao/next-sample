@@ -8,7 +8,7 @@ export default function Home() {
           <SLink href="/style-sample/sample1">style-sample</SLink>
         </li>
         <li>
-          <SLink href="/style-sample/sample1">style-sample</SLink>
+          <SLink href="/posts">posts</SLink>
         </li>
       </SList>
     </div>

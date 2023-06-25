@@ -32,7 +32,7 @@ export default function Sample2Page() {
       <SWrapper>
         <STitle>Hello World!</STitle>
       </SWrapper>
-      <div css={css(wrapperStyles)}>
+      <div css={wrapperStyles}>
         <h1 css={titleStyles}>Hello World!</h1>
       </div>
     </div>
